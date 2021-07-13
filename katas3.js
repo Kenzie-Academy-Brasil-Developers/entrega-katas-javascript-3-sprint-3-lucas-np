@@ -30,7 +30,7 @@ kata2()
 function kata3() {
     // implemente o código do kata 3 aqui
     showResults(' kata3 ')
-    for (let i = -1; i >= -25; i++) {
+    for (let i = -1; i >= -25; i--) {
         showResults(i)
     }
 }
@@ -39,7 +39,7 @@ kata3()
 function kata4() {
     // implemente o código do kata 4 aqui
     showResults(' kata4 ')
-    for (let i = -1; i <= -25; i++) {
+    for (let i = -25; i <= -1; i++) {
         showResults(i)
     }
 }
@@ -164,7 +164,7 @@ function kata16() {
     showResults(' kata16 ')
     let soma = 0
     for (let i = 0; i <= sampleArray.length; i++) {
-        soma =+ sampleArray[i]
+        soma += sampleArray[i]
     }
     showResults(soma)   
 }
